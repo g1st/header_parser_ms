@@ -1,0 +1,22 @@
+{
+  "name": "header_parser_ms",
+  "version": "1.0.0",
+  "description": "app to get IP address, language and operating system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g1st/header_parser_ms.git"
+  },
+  "author": "g1st <gintstan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g1st/header_parser_ms/issues"
+  },
+  "homepage": "https://github.com/g1st/header_parser_ms#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
