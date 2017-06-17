@@ -3,12 +3,13 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-app.set('trust proxy', 'loopback');
+// app.set('trust proxy', 'loopback');
 
 app.get('/', function(req, res) {
   // const IP = req.headers['x-forwarded-for']
   console.log(req.headers);
-  const IP = req.ip;
+  const IP = req.ips;
+  console.log(IP);
   res.send(IP);
 });
 
