@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet' href='style.css')
+  body
+    h1 Header Parser Microservice
+    h2 Usage:
+    p
+      a(href=url+'/api/whoami')= url + '/api/whoami'
+    h2 Example output:
+    code { ipaddress: "71.112.35.69", language: "en", software: "X11; Linux x86_64" }
