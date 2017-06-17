@@ -21,6 +21,14 @@ function headerParser(header) {
     software: null
   };
 
+  // IP address
   header_skeleton.ipaddress = header["x-forwarded-for"];
+
+  // the most preffered language is first one
+  header_skeleton.language = header["accept-language"].split(',')[0];
+
+  // first parantheses identifies software being used (?)
+  header_skeleton.software = header["user-agent"].match(/\((.+?)\)/)[1];
+
   return header_skeleton;
 }
