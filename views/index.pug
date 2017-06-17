@@ -5,10 +5,14 @@ html(lang='en')
     title= title
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='stylesheet' href='style.css')
-  body
+    link(href="https://use.fontawesome.com/a410e468b2.css" media="all" rel="stylesheet")
     h1 Header Parser Microservice
     h2 Usage:
     p
       a(href=url+'/api/whoami')= url + '/api/whoami'
     h2 Example output:
     code { ipaddress: "71.112.35.69", language: "en", software: "X11; Linux x86_64" }
+    br
+    br
+    a(href='https://github.com/g1st/header_parser_ms' target="_blank")
+      i(class="fa fa-github fa-2x" aria-hidden="true")
