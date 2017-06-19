@@ -1,7 +1,5 @@
 # Header parser microservice
 
-This app solves following user story:
-
-I can get the IP address, language and operating system for my browser.
+Simple app which parses the IP address, language and operating system from browser.
 
 [Demo](https://g1st-header-parser-ms.herokuapp.com/)
