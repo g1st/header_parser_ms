@@ -1,7 +1,7 @@
 {
   "name": "header_parser_ms",
   "version": "1.0.0",
-  "description": "app to get IP address, language and operating system",
+  "description": "parses the IP address, language and operating system from header",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
